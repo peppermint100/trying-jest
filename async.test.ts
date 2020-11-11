@@ -1,5 +1,3 @@
-const coffeeOfToday = 'Americano';
-
 const fetchData = (coffee: string) => {
     return new Promise((resolve, reject) => {
         return resolve(coffee);

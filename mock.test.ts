@@ -47,7 +47,7 @@ const coffeeData:CoffeeData[] = [
     }
 ]
 
-const getCoffeName:any = (data: CoffeeData[]) => {
+const getCoffeName:string[] = (data: CoffeeData[]) => {
     return data.map((coffee:CoffeeData) => coffee.name);
 }
 
