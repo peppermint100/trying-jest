@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Coffee Data Snapshot 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "name": "Americano",
+    "price": 4100,
+    "size": "Regular",
+  },
+  Object {
+    "id": 2,
+    "name": "Cafe Mocha",
+    "price": 5600,
+    "size": "Regular",
+  },
+  Object {
+    "id": 3,
+    "name": "Mango Juice",
+    "price": 6300,
+    "size": "Large",
+  },
+]
+`;
