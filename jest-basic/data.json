@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Americano",
+        "price": 4100,
+        "size": "Regular"
+    },
+    {
+        "id": 2,
+        "name": "Cafe Mocha",
+        "price": 5600,
+        "size": "Regular" 
+    },
+    {
+        "id": 3,
+        "name": "Mango Juice",
+        "price": 6300,
+        "size": "Large" }
+]

@@ -11,6 +11,11 @@
     "typescript": "^4.0.5"
   },
   "scripts": {
-    "main": "ts-node main.test.ts"
+    "main": "ts-node main.test.ts",
+    "mock": "ts-node mock.test.ts",
+    "coffee": "ts-node coffee.ts"
+  },
+  "dependencies": {
+    "axios": "^0.21.0"
   }
 }

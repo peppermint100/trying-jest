@@ -1,4 +1,11 @@
-const data = [
+interface CoffeeData {
+    id: number;
+    name: string;
+    price: number;
+    size: string;
+};
+
+const data:CoffeeData[] = [
     {
         id: 1,
         name: "Americano",
@@ -18,7 +25,6 @@ const data = [
         size: "Large"
     }
 ]
-
 test('testing test is working', () => {
     expect(3).toBe(3);
 })
