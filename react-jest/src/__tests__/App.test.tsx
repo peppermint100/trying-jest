@@ -8,6 +8,21 @@ describe("Testing App.tsx File", () => {
         wrapper = shallow(<App />);
     })
     test("App Header Test", () => {
-        expect(wrapper.find("header").text()).toContain("testing with jest"); 
+        expect(wrapper.find("header").text()).toContain("TDD App"); 
+    })
+
+    test("button text is BUTTON", () => {
+        expect(wrapper.find("button").text()).toContain("BUTTON"); 
+    })
+
+    test("current theme is light", () => {
+        expect(wrapper.find("#current-theme").text()).toContain("light");
+    })
+
+    test("Toggle to switch theme", () => {
+        const button = wrapper.find("button");
+        button.simulate('click');
+        const theme = wrapper.find("#current-theme").text();
+        expect(theme).toContain("dark");
     })
 })
